@@ -10,7 +10,7 @@
 // Strings
 
 // const exampleString = "Hello World";
-const name = "Jane";
+// const name = "Jane";
 const backticks = `${2 + 2}`;
 // console.log(typeof backticks);
 
@@ -42,7 +42,7 @@ if(isCool) {
 // console.log(age < 18);
 
 //Null
-let age = null;
+// let age = null;
 
 
 
@@ -59,3 +59,5 @@ let x;
 const name = 'John';
 const age = 25;
 
+const firstName  = "Chibuikem"
+const lastName = "Ojiba"
