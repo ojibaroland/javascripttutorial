@@ -98,5 +98,61 @@
 
 // Comparison Operator => true/false
 
-const a = 5;
-const b = 10;
+// const a = "10";
+// const b = 10;
+
+// Greater than
+// console.log(a > b);
+
+// // Greater than or equal to
+// console.log(a >= b);
+
+// // less than
+// console.log(a < b);
+
+// Less than or equal to:
+// console.log(a <= b);
+
+// // Is equal
+// console.log(a == b);
+// // Not equal
+
+// console.log(a != b);
+
+// Strict Equality
+// console.log(a === b);
+// // Strict Inequality
+// console.log(a !== b)
+
+// console.log(5 === "5");
+
+// Always use Strict Equality;
+
+//  Logical Operators;
+// AND && ALL OPERANDS ARE TRUE => TRUE
+// console.log(true && false && true);
+// //  OR || 
+// console.log(true || false);
+// // NOT !!
+// console.log(!false);
+
+// const age = 15;
+
+// if(age > 18) {
+//     console.log("You may enter");
+// } else if (age === 18) {
+//     console.log("You just turned 18. Welcome!");
+// } else {
+//     console.log("Grow up!");
+// }
+
+// The "while" loop
+
+let i = 0;
+
+while(i < 10){
+    console.log(i)
+    i = i+1;
+}
+
+
