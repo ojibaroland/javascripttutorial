@@ -155,4 +155,9 @@ while(i < 10){
     i = i+1;
 }
 
+// FOR LOOP
+
+for(let i = 0; i < 10; i++) {
+    console.log(i);
+}
 
