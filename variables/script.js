@@ -148,16 +148,62 @@
 
 // The "while" loop
 
-let i = 0;
+// let i = 0;
 
-while(i < 10){
-    console.log(i)
-    i = i+1;
+// while(i < 10){
+//     console.log(i)
+//     i = i+1;
+// }
+
+// // FOR LOOP
+
+// for(let i = 0; i < 10; i++) {
+//     console.log(i);
+// }
+
+
+ // A BLOCK OF CODE => PERFORMS A TASK
+
+ // A function declaration
+
+//  function square(number) {
+//     return number * number;
+//  };
+
+// const name = function(params) {
+//     return params + params
+// };
+
+// const name = (params) => {
+//     // statements
+// }
+
+//  // A function call
+// //  console.log(square(10));
+// console.log(name(10));
+
+//  console.log('PRINT');
+
+function sayHi(name) {
+    console.log(`Hi, ${name}`);
+    return `Hi, ${name}`
 }
 
-// FOR LOOP
+sayHi('Roland');
 
-for(let i = 0; i < 10; i++) {
-    console.log(i);
+// Every function returns undefined except specified
+
+function add(a, b) {
+    return a + b;
 }
+
+const sum = add(2, 2);
+
+console.log(sum);
+
+// Arrow Function
+
+const square = (a,b) => a * b;
+
+console.log(square(2,4))
 
